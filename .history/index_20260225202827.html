@@ -34,12 +34,36 @@
         </div>
     </nav>
 
+    <!-- ═══════════════════ VIDEO BANNER ═══════════════════ -->
+    <section class="video-banner" id="video">
+        <div class="container">
+            <div class="video-wrapper">
+                <div class="video-content">
+                    <p class="video-tagline">Einblick in unsere Arbeit</p>
+                    <h2 class="video-title">So arbeiten wir</h2>
+                </div>
+                <div class="video-container">
+                    <video id="intro-video" poster="" playsinline>
+                        <!-- Video-Quelle hier einfügen: -->
+                        <!-- <source src="ihr-video.mp4" type="video/mp4"> -->
+                        Ihr Browser unterstützt das Video-Element nicht.
+                    </video>
+                    <div class="video-overlay" id="videoOverlay">
+                        <button class="play-button" id="playBtn" aria-label="Video abspielen">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </button>
+                        <p class="video-hint">Video abspielen</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- ═══════════════════ HERO ═══════════════════ -->
     <header class="hero" id="hero">
         <div class="hero-bg"></div>
-        <div class="hero-image">
-            <img src="hero-image.jpg.jpeg" alt="Entkernung und Rückbau - Professionelle Räumung">
-        </div>
         <div class="container hero-content">
             <p class="hero-tagline animate-in">Entrümpelung · Entkernung · Entsorgung</p>
             <h1 class="animate-in">Raum für Neues<br />beginnt hier.</h1>
